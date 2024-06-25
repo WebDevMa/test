@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML教学</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background-color: #50b3a2;
+            color: white;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            padding: 10px 20px;
+            background-color: #e7e7e7;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #50b3a2;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 10px 20px;
+        }
+        footer {
+            background-color: #50b3a2;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>欢迎学习HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#basic">HTML基础</a></li>
+                <li><a href="#elements">HTML元素</a></li>
+                <li><a href="#advanced">进阶内容</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="basic">
+                <h2>HTML基础</h2>
+                <p>HTML是一种超文本标记语言，用于创建网页的标准标记语言。</p>
+            </section>
+            <section id="elements">
+                <h2>HTML元素</h2>
+                <p>HTML页面由一系列元素构成。这些元素通过标签来表示，例如&lt;h1&gt;表示标题，&lt;p&gt;表示段落。</p>
+                <ul>
+                    <li>标题：&lt;h1&gt;到&lt;h6&gt;</li>
+                    <li>段落：&lt;p&gt;</li>
+                    <li>无序列表：&lt;ul&gt;，&lt;li&gt;</li>
+                </ul>
+            </section>
+            <section id="advanced">
+                <h2>进阶内容</h2>
+                <p>进阶内容包括表格、表单、样式等，它们可以使网页更加丰富和互动。</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 HTML教学</p>
+        </footer>
+    </div>
+</body>
+</html>
+
